@@ -1,0 +1,13 @@
+# Minimal dependencies for the GestureTalk hardware glove pipeline.
+# Install: pip install -r requirements-hardware.txt
+#
+# For the full monorepo (camera/MediaPipe/Jupyter), use requirements.txt instead.
+
+numpy==1.26.4
+tensorflow==2.17.0
+scikit-learn==1.5.2
+protobuf==4.25.5
+pyserial==3.5
+
+# Optional: text-to-speech for --speak (Windows can fall back to PowerShell without this)
+pyttsx3==2.90

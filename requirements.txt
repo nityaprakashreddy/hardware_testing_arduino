@@ -1,0 +1,29 @@
+# GestureTalk Project - Requirements File
+
+# --- Core Python Libraries ---
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+
+# --- Deep Learning & ML ---
+tensorflow==2.17.0
+keras==3.4.1
+scikit-learn==1.5.2
+
+# --- Computer Vision ---
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+
+# --- Natural Language Processing & Speech ---
+gtts==2.5.3
+pyttsx3==2.90
+
+# --- Utility & Environment ---
+tqdm==4.66.5
+pickle-mixin==1.0.2
+protobuf==4.25.5
+pyserial==3.5
+
+# --- Optional (Jupyter / Development) ---
+notebook==7.2.2
+ipython==8.27.0
